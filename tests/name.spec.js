@@ -99,7 +99,7 @@ describe('/name route',
               .put('/name')
               .send({
                   firstName: 'John',
-                  lastName: 'Doe'
+                  lastName: 'Doeasd'
                 }
               )
               .expect(200, {
